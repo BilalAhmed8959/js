@@ -145,14 +145,18 @@
     // }
     // sum (4 , 4)
     
+// var sum1 = document.querySelector("p")
 
-var sum = document.querySelector("button_1")
-function num (){
-    sum
+
+// var sum = document.querySelector("#button_1")
+// if(sum == sum1){
+
+// }
+var sum =document.querySelector("button")
+
+function one (){
+    document.write(sum =+ 1)
 }
-
-
-
 
 
 
