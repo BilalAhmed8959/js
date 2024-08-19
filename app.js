@@ -322,17 +322,145 @@
 
 
 
-var arr = ["bilal", "umair", "ali" ,"ahmed"]
+// var arr = ["bilal", "umair", "ali" ,"ahmed"]
 
-// arr.push("attari")
-// arr.pop()
-arr.splice(2 ,4 , "attari")
-console.log(arr)
-
-
+// // arr.push("attari")
+// // arr.pop()
+// arr.splice(2 ,4 , "attari")
+// console.log(arr)
 
 
 
+
+// for (var i = 0; i < 10; i++ ){
+//     console.log("hlo bilal")
+// }
+
+// for(var i = 0; i <= 10; i++){
+//     console.log("Adul Hadi", i);
+    
+// }
+
+
+
+
+// var num = 2;
+
+// for (var i = 0; i < 100; i++){
+//     console.log(num + "*" + i + "= " + num *i)
+// }
+
+
+
+
+
+
+// for(var i   = 0; i < 10; i++){
+//     console.log(i );
+
+//     for(var j = 0; j < 10; j++){
+//         console.log()
+//     }
+// }
+
+
+
+// var i = 2;
+// while(i < 12){
+//     console.log(i);
+//     i++
+    
+
+// }
+
+
+
+// var i = 0;
+// do {
+//     console.log(i);
+//     i++
+    
+// } 
+// while(i < 20);
+
+
+// var div = document.querySelector("div")
+// var arr = ["Abdul Hadi", "ABDUL lATiF", "Asad", "Yasir"]
+// for (var i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+    
+//     div.innerHTML += arr[i] + "<br>"
+
+
+
+
+// }
+
+
+
+
+
+
+// var text = document.querySelector("#name")
+// var arr = []
+// function addName (){
+//     arr[i].push(text.value)
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for (var i = 0; i < 10; i++){
+//     console.log ()
+// }
+
+
+
+// var a = 0;
+
+// setInterval(function(){
+//     a++;
+//     if(a <=  50){
+//         document.getElementById("domo").innerHTML = a;
+//     }
+// },100)
+
+
+// var a = 0;
+// 	setInterval(function(){
+// 		a++;
+// 		if(a <= 100){
+// 			document.getElementById('domo').innerHTML = a;
+// 		}
+	
+// 	},100)
+
+
+
+
+var a = 0;
+
+setInterval(function()
+{
+    a++;
+    if(a <= 100){
+        document.getElementById("domo").innerHTML = a;
+    }
+},100)
 
 
 
