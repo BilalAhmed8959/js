@@ -452,29 +452,114 @@
 
 
 
-var a = 0;
+// var a = 0;
 
-setInterval(function()
-{
-    a++;
-    if(a <= 100){
-        document.getElementById("domo").innerHTML = a;
+// setInterval(function()
+// {
+//     a++;
+//     if(a <= 100){
+//         document.getElementById("domo").innerHTML = a;
+//     }
+// },100)
+
+
+// var a = 0;
+
+// setInterval(function(){
+//     for(a <= 100; a++)
+// },1000)
+
+
+// var numbr = document.querySelector("#input")
+//  var arry = [];
+
+// function arr (){
+// arry.push(numbr.value)
+// console.log(arry)
+// numbr.value= ""
+
+// }
+
+// var a = 0;
+
+// var arry = ["ssc", "hsc", "bcs", "bs " , "bcom", "ms"];
+
+// for(var a = 0; a <= 6; a++){
+//     document.write = (arry + "br")
+
+// }
+
+
+
+
+// var abc = "hello world"
+
+// for (var i =0; i < 5; i++ ){
+//     document.write(abc+ [i] + "<br/>")
+// }
+
+
+
+
+// var abc = 0;
+
+// for (var i = 1; i < 10; i++){
+//     document.write(i + "<br>" )
+// }
+
+
+
+
+
+
+// var bilalObj = {
+//     name: "Bilal Ahmed ",
+//     age : 23,
+//     qualifction: "FA",
+//     cnic: 131010987580-9,
+// }
+
+// // document.write(bilalObj)
+// console.log(bilalObj.age);
+
+// var ol = document.querySelector("#ol")
+
+// var arry = ["bilal " , "ahmed " , "qadri" , "Ali"];
+
+// for(var i = 0; i < arry.length; i++){
+//     ol.innerHTML += `<li> ${arry[i]} </li>`
+
+// }
+
+
+
+var inPut = document.querySelector("#input")
+var arry = [];
+var ol = document.querySelector("ol")
+
+
+function addTodo (){
+    ol.innerHTML = "";
+    arry.push(inPut.value)
+
+
+    for(var i = 0; i < arry.length ; i++){
+        ol.innerHTML +=  `<li>${arry[i]}
+   
+
+        <button onclick=delate() >Delete </button>
+        
+        </li>`
+    inPut.value = "";
+
     }
-},100)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+function delate (){
+    ol.innerHTML = "";
+    arry.splice(inPut.value)
+    
+    for(var i = o; i <arry.length; i++ ){
+        ol.innerHTML += `${arry[i]}`
+    }
+}
