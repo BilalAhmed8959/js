@@ -533,33 +533,99 @@
 
 
 
-var inPut = document.querySelector("#input")
-var arry = [];
-var ol = document.querySelector("ol")
+// var inPut = document.querySelector("#input")
+// var arry = [];
+// var ol = document.querySelector("ol")
 
 
-function addTodo (){
-    ol.innerHTML = "";
-    arry.push(inPut.value)
+// function addTodo (){
+//     ol.innerHTML = "";
+//     arry.push(inPut.value)
 
 
-    for(var i = 0; i < arry.length ; i++){
-        ol.innerHTML +=  `<li>${arry[i]}
+//     for(var i = 0; i < arry.length ; i++){
+//         ol.innerHTML +=  `<li>${arry[i]}
    
 
-        <button onclick=delate() >Delete </button>
+//         <button onclick=delate(${i})>Delete </button>
         
-        </li>`
-    inPut.value = "";
+//         </li>`
+//     inPut.value = "";
 
-    }
+//     }
 
-}
-function delate (){
-    ol.innerHTML = "";
-    arry.splice(inPut.value)
+// }
+// function delate (){
+//     arry.splice(inPut.value , )
+//     ol.innerHTML = "";
     
-    for(var i = o; i <arry.length; i++ ){
-        ol.innerHTML += `${arry[i]}`
-    }
-}
+//     for(var i = o; i <arry.length; i++ ){
+//         ol.innerHTML += `${arry[i]}`
+//     }
+// }
+
+
+
+
+// var inPut = document.querySelector("#input");
+// var ol = document.querySelector("ol")
+// var city = ["karachi" , "islamabad", "lahore", "quetta"]
+
+
+// function uCity (){
+//     for(var i = 0; i < city.length ; i++){
+//     if(inPut.value == city[i] ){
+//         ol.innerHTML = `ya shi ha`
+//     }else{
+//         ol.innerHTML = `kach hor enter kro`
+//     }
+// }
+
+// }
+
+
+
+
+
+// var username = "Bilal";
+// console.log(username.toLocaleLowerCase())
+// console.log(username.toUpperCase())
+// console.log(username.length)
+// console.log(username.charAt(3))
+// console.log(username.slice(3))
+// console.log(username.indexOf("B"  ))
+// console.log(username.replace ("B" ,"h" ))
+// console.log(username.split())
+
+
+
+
+// var num = 12.9
+
+// console.log(Math.round(num));
+// console.log(Math.ceil(num));
+// console.log(Math.floor(num));
+// console.log(Math.floor(num));
+
+
+// Number + parseFloat + parseInt ya 3 String ko numbr my tbdeel krty hn
+
+
+// console.log(num.toFixed(2))
+
+
+
+
+// var arr = [20 , 34 , 56 , 60]
+
+// var sum = 0;
+// for(var i = 0; i <= 3; i++){
+//     document.write(arr[i] + "<br>")
+//     sum = sum + arr[i]
+
+// }
+// document.write("totle number "+ sum)
+
+
+
+
