@@ -463,11 +463,6 @@
 // },100)
 
 
-// var a = 0;
-
-// setInterval(function(){
-//     for(a <= 100; a++)
-// },1000)
 
 
 // var numbr = document.querySelector("#input")
@@ -600,7 +595,7 @@
 
 
 
-// var num = 12.9
+// var num = 12
 
 // console.log(Math.round(num));
 // console.log(Math.ceil(num));
@@ -629,3 +624,138 @@
 
 
 
+// var a = 0;
+
+// setTimeout(function(){
+//     for (a <= 60; a++){
+
+//     }
+// })
+
+
+
+
+// var h1 = document.querySelector("h1")
+// var a = 0;
+// h1.innerHTML = a
+// function startTimer(){
+// abc = setInterval(function(){
+//     a += 1
+// h1.innerHTML = a
+// },1000)
+// }
+
+// function stopTimer(){
+//     clearInterval(abc)
+// }
+
+
+
+// const timer = document.querySelector("#timer");
+// var num = 0
+// timer.innerHTML = num
+
+// // var interval;
+// function startTimer() {
+//     interval = setInterval(function () {
+//         num += 1
+//         timer.innerHTML = num
+//     }, 1000)
+// }
+
+// clearTimeout()
+// function stopTimer(){
+//     clearInterval(interval)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var p = document.querySelector("p");
+// var haid = document.querySelector("#haid")
+
+
+// function toos(para){
+//  var abc = Math.ceil(Math.random()*2);
+//  if(abc == 1){
+//     p.innerHTML = "your don"
+//  }else if(abc == 2){
+//     p.innerHTML ="your loos"
+//  }
+// }
+
+
+
+
+
+
+
+
+
+// var usre = {
+//    name : "bilal",
+//    age : 20,
+//    hobbies: ["stady", "pray"]
+// }
+
+// console.log(usre)
+// usre.name= "Bilal Qadri"
+// console.log(usre)
+// delete usre.age
+// console.log(usre)
+
+
+
+let nestedData = [
+    {
+        category: "Electronics",
+        subcategories: [
+            {
+                name: "Smartphones",
+                products: [
+                    { brand: "Apple", model: "iPhone 13", price: 999 },
+                    { brand: "Samsung", model: "Galaxy S21", price: 799 },
+                    { brand: "Google", model: "Pixel 6", price: 699 }
+                ]
+            },
+            {
+                name: "Laptops",
+                products: [
+                    { brand: "Apple", model: "MacBook Pro", price: 1499 },
+                    { brand: "Dell", model: "XPS 13", price: 1299 },
+                    { brand: "HP", model: "Spectre x360", price: 1199 }
+                ]
+            }
+        ]
+    },
+    {
+        category: "Clothing",
+        subcategories: [
+            {
+                name: "Men's",
+                products: [
+                    { brand: "Nike", item: "T-shirt", price: 25 },
+                    { brand: "Adidas", item: "Joggers", price: 40 }
+                ]
+            },
+            {
+                name: "Women's",
+                products: [
+                    { brand: "Zara", item: "Dress", price: 50 },
+                    { brand: "H&M", item: "Jeans", price: 30 }
+                ]
+            }
+        ]
+    }
+];
+
+console.log(nestedData[1].subcategories[0].products[1].brand)
